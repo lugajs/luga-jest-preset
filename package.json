@@ -1,6 +1,6 @@
 {
   "name": "luga-jest-preset",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A preset to use as a base for Jest's configuration inside React projects",
   "license": "Apache-2.0",
   "homepage": "https://github.com/lugajs/luga-jest-preset",
