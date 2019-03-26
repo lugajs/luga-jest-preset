@@ -11,6 +11,7 @@ module.exports = {
   "moduleFileExtensions": [
     "js",
     "jsx",
+    "json",
     "ts",
     "tsx"
   ],
@@ -29,19 +30,11 @@ module.exports = {
   "coverageDirectory": "../coverage",
   "collectCoverage": false,
   "collectCoverageFrom": [
-    "**/*.{js,jsx}",
+    "**/*.{js,jsx,ts,tsx}",
     "!**/fonts/**",
     "!**/images/**"
   ],
   "coveragePathIgnorePatterns": [
     "/coverage/"
-  ],
-  "coverageThreshold": {
-    "global": {
-      "branches": 80,
-      "functions": 80,
-      "lines": 80,
-      "statements": 80
-    }
-  }
+  ]
 };
