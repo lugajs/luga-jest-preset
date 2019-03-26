@@ -1,10 +1,4 @@
 module.exports = {
-  transform: {
-    "^.+\\.(js|jsx)$": require.resolve('./jest.transform.js'),
-    "^.+\\.(ts|tsx)$": "ts-jest"
-  },
-  "verbose": true,
-  "testURL": "http://localhost/",
   "setupFiles": [
     require.resolve('./jest.setup.js')
   ],
@@ -17,7 +11,6 @@ module.exports = {
   "moduleFileExtensions": [
     "js",
     "jsx",
-	"json",
     "ts",
     "tsx"
   ],
@@ -27,6 +20,12 @@ module.exports = {
   "testPathIgnorePatterns": [
     "/node_modules/"
   ],
+  "testURL": "http://localhost/",
+  transform: {
+    "^.+\\.(js|jsx)$": require.resolve('./jest.transform.js'),
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "verbose": true,
   "coverageDirectory": "../coverage",
   "collectCoverage": false,
   "collectCoverageFrom": [
@@ -39,10 +38,10 @@ module.exports = {
   ],
   "coverageThreshold": {
     "global": {
-      "branches": 70,
-      "functions": 70,
-      "lines": 70,
-      "statements": 70
+      "branches": 80,
+      "functions": 80,
+      "lines": 80,
+      "statements": 80
     }
   }
 };
