@@ -1,0 +1,16 @@
+{
+  "name": "luga-jest-preset",
+  "version": "0.1.0",
+  "description": "A preset to use as a base for Jest's configuration inside React projects",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/lugajs/luga-jest-preset",
+  "author": {
+    "name": "Massimo Foti",
+    "email": "massimo@massimocorner.com",
+    "url": "http://www.massimocorner.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lugajs/luga-jest-preset"
+  }
+}
