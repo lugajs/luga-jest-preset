@@ -1,5 +1,6 @@
 module.exports = {
   "setupFiles": [
+    "<rootDir>/node_modules/core-js/client/shim.js",
     require.resolve('./jest.setup.js')
   ],
   "rootDir": "src/",
@@ -35,6 +36,6 @@ module.exports = {
     "!**/images/**"
   ],
   "coveragePathIgnorePatterns": [
-    "/coverage/"
+    "<rootDir>/coverage/"
   ]
 };
