@@ -7,7 +7,7 @@ module.exports = {
   "modulePaths": [],
   "moduleDirectories": [
     "node_modules",
-    "<rootDir>"
+    "src"
   ],
   "moduleFileExtensions": [
     "js",
@@ -28,13 +28,8 @@ module.exports = {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
   "verbose": true,
-  "coverageDirectory": "../coverage",
+  "coverageDirectory": "<rootDir>/coverage",
   "collectCoverage": false,
-  "collectCoverageFrom": [
-    "**/*.{js,jsx,ts,tsx}",
-    "!**/fonts/**",
-    "!**/images/**"
-  ],
   "coveragePathIgnorePatterns": [
     "<rootDir>/coverage/"
   ]
